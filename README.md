@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## The Team
 Meet the team of students who made it happen
 
-- **Aarob Victor- [@avict18](https://github.com/avict18) - aaron.vic18@proton.me**
+- **Aaron Victor- [@avict18](https://github.com/avict18) - aaron.vic18@proton.me**
 - **Justice Busagala - [@jeel-code1](https://github.com/jeel-code1) - email@gmail.com**
 - **Jesse Mbise - [@sehlby9014](https://github.com/shelby9014) - Jessembise@gmail.com**
 
