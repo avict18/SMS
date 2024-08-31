@@ -1,7 +1,11 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
-[![MIT License][license-shield]][license-url]
+<div align="center">
+  <a href="https://github.com/avict18/SMS/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge" alt="Licence">
+  </a>
+</div>
 
 
 
