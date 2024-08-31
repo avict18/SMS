@@ -72,7 +72,7 @@ This project is designed to simplify and streamline the daily operations of a sc
 
 - **Exam and Grade Management:** Streamlines the process of feeding results, and generating report cards.
 - **Notifications and Alerts:** Keeps everyone updated with important announcements and events from the school administration.
-- **Point System:** Keeps track of individual students auxilliary poins and has a report on these points.
+- **Point System:** Keeps track of individual students auxilliary points and has a report on these points.
 
 ### Technologies Used:
 - **Backend:** Django,PHP
