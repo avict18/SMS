@@ -129,7 +129,7 @@ This is how to get the project up and running on your machine
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-This place here us going to be filled by Busagala.js
+This place here is going to be filled by Busagala.js
 <p align="center"> login page
 <img src="Assets/screenshot12.png">
 </p>
