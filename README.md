@@ -39,7 +39,7 @@ This project is designed to simplify and streamline the daily operations of a sc
 
 ### Technologies Used:
 - **Backend:** Django,PHP
-- **Frontend:** HTML,TailwindCSS,Boostrap
+- **Frontend:** HTML,TailwindCSS,Bootstrap
 - **Database:** MySQL
 
 ### Purpose:
