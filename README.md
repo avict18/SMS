@@ -90,11 +90,10 @@ This School Management System is built to foster a more organized and collaborat
 ### Built With
 These are the web technologies that our team of skilled students used to build this sofisticated system from scratch
 
-* [![TailwindCSS][Tailwind-CSS]][Tailwind-url]
-* [![HTML][HTML]][HTML-url]
-* [![Python][Python]][Python-url]
-* [![Javascript]][Javascript]
-
+![Tailwind CSS](https://readmebadge.vercel.app/badges/tailwind.svg)
+![HTML](https://readmebadge.vercel.app/badges/html.svg)
+![Python](https://readmebadge.vercel.app/badges/python.svg)
+![Javascript](https://readmebadge.vercel.app/badges/javascript.svg)
 
 
 <!-- GETTING STARTED -->
@@ -211,3 +210,4 @@ And much support from the Arusha science community for making this project possi
 [Python]: (https://readmebadge.vercel.app/badges/python.svg)
 [Python-url]: https://python.org/
 [Javascript]: (https://readmebadge.vercel.app/bad)
+[js-url]: (#)
