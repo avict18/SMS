@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styling/style.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Sidebar -->
+    <div class="flex">
+        <div class="w-1/5 bg-gray-800 h-screen p-5 justify-between">
+            <div class="flex items-center mb-5">
+                <img src="Assets/logo.png" alt="User Image"
+                    class="rounded-full w-12 h-12 mr-3">
+                <span class="text-white font-semibold">Aaron Victor</span>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-blue-500">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-white">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Profile
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-white">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Voting
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-white">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Results
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-white">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Timetable
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="flex items-center text-white">
+                            <svg class="w-5 h-5 mr-3 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                            </svg>
+                            Notifications
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            
+            <div class="mt-auto">
+                <button class="bg-red-500 text-white py-2 px-4 w-full rounded hover:bg-red-600">Sign Out</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="w-4/5 p-8">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-8">
+                <div>
+                    <h1 class="text-2xl font-semibold">Dashboard</h1>
+                    <span class="text-gray-500">Home</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="p-2 rounded-full bg-gray-200">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 11c0 2.21-1.79 4-4 4S4 13.21 4 11s1.79-4 4-4 4 1.79 4 4zM8 15v5m4-10l6 6"></path>
+                        </svg>
+                    </button>
+                    <button class="p-2 rounded-full bg-gray-200">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 11c0 2.21-1.79 4-4 4S4 13.21 4 11s1.79-4 4-4 4 1.79 4 4zM8 15v5m4-10l6 6"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dashboard Cards -->
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Card 1 -->
+                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
+                    <div class="text-blue-500 mb-3">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Project Budget</h3>
+                    <span class="text-xl">30000</span>
+                    <span class="text-green-500 mt-2">+3% higher than last semester</span>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
+                    <div class="text-yellow-500 mb-3">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Class Position</h3>
+                    <span class="text-xl">2/52</span>
+                    <span class="text-green-500 mt-2">+5% higher than last month</span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
+                    <div class="text-green-500 mb-3">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Auxiliary Points</h3>
+                    <span class="text-xl">100</span>
+                    <span class="text-green-500 mt-2">+3% higher than yesterday</span>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
+                    <div class="text-purple-500 mb-3">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Assignments Pending</h3>
+                    <span class="text-xl">3</span>
+                    <span class="text-green-500 mt-2">+8% higher than last week</span>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="p-5 bg-white rounded-lg shadow flex flex-col items-center">
+                    <div class="text-gray-500 mb-3">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7m-9 18V8m-4 4l4 4m4-4l-4-4m4 4v6m0 0l4 4m-8-4H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Total Contestants</h3>
+                    <span class="text-xl">5</span>
+                    <span class="text-gray-500 mt-2">Waiting for you to place a vote</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
