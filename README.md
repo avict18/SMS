@@ -144,7 +144,7 @@ Project Link: [https://github.com/avict18/SMS](https://github.com/avict18/SMS)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-The production team would like to acknowledge some individuals who have made inavaluable contributions towards production of the school management system
+The production team would like to acknowledge some individuals who have made invaluable contributions towards production of the school management system
 
 - _**Mr. Gilbert Mtula**_
 - _**Mr. Godlisten Lema**_
